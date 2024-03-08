@@ -1,0 +1,86 @@
+<!-- Jeff Abbott Week6 Assignment 12/5/21 -->
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header>
+  </header>
+
+  <nav>
+  </nav>
+
+  <main>
+
+    <form class="loginForm center" action="" method="post">
+
+      <div class="asterisk center">
+        <label for="">Username: </label>
+        <input id="user" type="text" name="" value=""><br>
+        <p class="asterisk center">*username must be 4-20 characters long</p>
+      </div>
+
+      <div class="asterisk center">
+        <label for="">Password: </label>
+        <input id="pswrd" type="text" name="" value=""><br>
+        <p class="asterisk center">*password must be 4-12 characters, contain at least one digit, one uppercase and lowercase character, and one of the four special characters: ! @ # _</p>
+      </div>
+
+      <button type="button" name="button" onclick="login()">Submit</button>
+    </form>
+
+    <!-- hidden personal info to display when username and password correctly filled out -->
+    <div id="infoDisplay" class="userInfo">
+
+      <div id="user_name" class="">
+        <p class="label">User Name:</p>
+      </div>
+
+      <div id="pswrd_name" class="">
+        <p class="label">Password:</p>
+      </div>
+      <div id="f_name" class="">
+        <p class="label">First Name:</p>
+      </div>
+
+      <div id="l_name" class="">
+        <p class="label">Last Name: </p>
+      </div>
+
+      <div id="street_name" class="">
+        <p class="label">Street: </p>
+      </div>
+
+      <div id="city_name" class="">
+        <p class="label">City:</p>
+      </div>
+
+      <div id="state_name" class="">
+        <p class="label">State:</p>
+      </div>
+
+      <div id="zip_name" class="">
+        <p class="label">Zip Code:</p>
+      </div>
+
+      <div id="phone" class="">
+        <p class="label">Phone Number:</p>
+
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+  </footer>
+  <script type="text/javascript" src="js/login.js"></script>
+</body>
+
+</html>
